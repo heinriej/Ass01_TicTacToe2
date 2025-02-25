@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 
 class TicTacToeButton extends JButton {
     private int row, col;
-    private char state; // 'X', 'O', or ' '
+    private char state;
 
     public TicTacToeButton(int row, int col) {
         this.row = row;
